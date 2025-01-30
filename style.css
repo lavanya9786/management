@@ -1,0 +1,90 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about-section {
+    padding: 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    color: #555;
+    margin-top: 20px;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+.about-section ul li {
+    margin: 10px 0;
+    color: #555;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
